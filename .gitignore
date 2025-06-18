@@ -51,3 +51,5 @@ Thumbs.db
 
 # Exportformate
 *.zip
+
+.idea/
