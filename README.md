@@ -2,7 +2,7 @@
 
 **Training Dashboard Pro** ist eine leistungsstarke Analyse-App für Radsportler*innen, die auf FIT-Dateien basiert und Trainingsdaten wie Leistung, Herzfrequenz, TSS, VO₂max und mehr auswertet. Sie wurde in Python mit Streamlit entwickelt und unterstützt vollständige Multi-User-Funktionalität.
 
-## ✨ Funktionen
+##  Funktionen
 
 - Automatischer FIT-Import mit selektivem Caching
 - Leistungsmetriken: NP, IF, TSS, EF, Power Curve, CP-Modell
@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Repository klonen und Abhängigkeiten installieren
 
@@ -37,7 +37,7 @@ Dadurch wird die Datei `trainings.db` erstellt. Sie enthält die Tabellen für A
 
 ---
 
-## ▶️ App starten
+## ▶ App starten
 
 ```bash
 streamlit run streamlit_app.py
@@ -47,7 +47,7 @@ Danach öffnet sich die Anwendung automatisch im Browser. Du kannst dich registr
 
 ---
 
-## 🧭 Erste Schritte nach dem Start
+##  Erste Schritte nach dem Start
 
 1. Registriere einen neuen Benutzer direkt in der App.
 2. Importiere deine eigenen FIT-Dateien über die Upload-Funktion.
@@ -61,7 +61,7 @@ Danach öffnet sich die Anwendung automatisch im Browser. Du kannst dich registr
 
 ---
 
-## 📁 Projektstruktur
+##  Projektstruktur
 
 | Ordner / Datei          | Beschreibung                                                   |
 |-------------------------|----------------------------------------------------------------|
@@ -86,6 +86,6 @@ Danach öffnet sich die Anwendung automatisch im Browser. Du kannst dich registr
 
 ---
 
-## 📄 Lizenz
+##  Lizenz
 
 Dieses Projekt steht unter der MIT-Lizenz. Details siehe [LICENSE](./LICENSE).
