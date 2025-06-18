@@ -58,3 +58,7 @@ Thumbs.db\
 \
 # Sonstiges\
 *.zip}fit_samples/
+
+# Bytecode-Cache (nicht ins Git-Repo)
+__pycache__/
+*.py[cod]
