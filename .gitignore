@@ -1,4 +1,6 @@
+# ========================
 # Python
+# ========================
 __pycache__/
 *.py[cod]
 *.so
@@ -7,49 +9,60 @@ __pycache__/
 dist/
 build/
 
-# Streamlit & temporäre Dateien
-.streamlit/
-*.log
-
-# Virtuelle Umgebungen
-venv/
+# ========================
+#  Virtuelle Umgebungen
+# ========================
 env/
 .venv/
+venv/
 ENV/
 
-# Datenbanken & Caches
+# ========================
+#  Datenbanken & Cache
+# ========================
 *.db
 *.sqlite3
-cache/
 *.cache/
+cache/
 
-# FIT-Dateien & Beispiel-Daten
-fit_samples/
-*.fit
-
-# User-spezifische Daten
+# ========================
+#  Testdaten & Benutzerdateien
+# ========================
 *.csv
 *.json
 *.xlsx
+*.fit
+fit_samples/
 
-# Jupyter & IPython
-.ipynb_checkpoints/
-*.ipynb
-
-# macOS & System
-.DS_Store
-Thumbs.db
-
-# VS Code
+# ========================
+#  Editor-/Projektdateien
+# ========================
 .vscode/
-
-# Git & Editor
+.idea/
 *.swp
 *.swo
 *.bak
 *.tmp
+*.log
 
-# Exportformate
+# ========================
+#  Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+#  macOS & Windows
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+#  Exportformate
+# ========================
 *.zip
 
-.idea/
+# ========================
+#  Streamlit
+# ========================
+.streamlit/
