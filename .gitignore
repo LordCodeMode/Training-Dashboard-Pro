@@ -62,3 +62,4 @@ Thumbs.db\
 # Bytecode-Cache (nicht ins Git-Repo)
 __pycache__/
 *.py[cod]
+*.DS_Store
